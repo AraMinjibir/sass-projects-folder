@@ -1,0 +1,99 @@
+.row {
+    width: 50%;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background-color: $color;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+    .first {
+      width: 50% !important;
+      padding: 0 !important;
+
+      .card {
+       width: 100% !important;
+       position: relative !important;
+       z-index: 2 !important;
+       padding: 0 3rem;
+
+       .text-secondary {
+          color: $paragraph-color !important;
+          @include Font;
+       }
+       .bg-secondary {
+          width: 140px;
+          height: 140px;
+          border-radius: 100px;
+          background-color: $circle-gb-color !important;
+
+          .text-light {
+             @include font;
+          
+          }
+          .text-secondary {
+             margin-top: -0.4rem;
+             @include Font;
+             
+          }
+       }
+       .text-white {
+          @include fonts;
+       }
+      }
+    }
+    
+    .second {
+       width: 50% !important;
+       padding: 0 !important;
+
+       .card {
+          width: 100% !important;
+          height: 100% !important;
+          position: relative !important;
+          z-index: 1 !important;
+          border: none !important;
+         
+
+          .text-info {
+             color: hsl(224, 30%, 27%) !important;
+             @include fonts;
+          }
+          .text-secondary {
+             color: $paragraph-color !important;
+             @include fonts;
+          }
+          .bg-danger {
+             background-color: $reaction-bg-color !important;
+
+             .text-danger {
+                color: hsl(0, 100%, 67%) !important;
+                @include fonts;
+             }
+          }
+          .bg-warning {
+             background-color: $memory-bg-color !important;
+
+             .text-warning {
+                color:$memory-color !important;
+                @include fonts;
+             }
+          }
+          .bg-success {
+             background-color: $verval-color !important;
+
+             .text-success {
+                color: hsl(166, 100%, 37%) !important;
+                @include fonts;
+             }
+          }
+          .bg-info {
+             background-color: $visual-bg-color !important;
+
+             .text-dark {
+                color: hsl(234, 85%, 45%) !important;
+                @include fonts;
+             }
+          }
+         }
+    }
+ }  

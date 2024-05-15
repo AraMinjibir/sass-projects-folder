@@ -1,0 +1,7 @@
+
+.btn-success {
+    width: 95%;
+    @include fonts;
+    background-color: $button-color !important;
+    border: none;
+}

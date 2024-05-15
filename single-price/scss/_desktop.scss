@@ -1,0 +1,51 @@
+.col {
+    padding:1.5rem 2rem; 
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+   background-color: $neutral-color;
+
+   .text-info {
+    @include font;
+    color: $primary-color !important;
+}
+
+    .text-success {
+    @include font; 
+    color: $button-color !important;
+    
+}
+}
+.first {
+    padding: 1.5rem 2rem;
+    border-bottom-left-radius: 5px;
+    background-color: $primary-color;
+
+    span {
+        @include fonts;
+        color: $tertiary-color !important;
+    }
+    .text-danger {
+        @include fonts;
+        color: $tertiary-color !important;
+        
+    }
+
+}
+.second {
+    padding: 1.5rem 2rem;
+    border-bottom-right-radius: 5px;
+    background-color: $secondary-color;
+
+    .text-danger {
+        @include fonts;
+        color: $tertiary-color !important;
+        
+    }
+}
+
+p {
+    @include fonts;
+    color: $paragraph-color;
+    
+}
+

@@ -1,0 +1,23 @@
+$card-bg-color: hsl(300, 43%, 22%);
+$buyer-color: hsl(333, 80%, 67%);
+$paragraph-color:hsl(303, 10%, 53%);
+$stars-bg-color:hsl(300, 24%, 96%);
+$neutral-color:hsl(0, 0%, 100%);
+
+
+// Headings' font
+@mixin font {
+    font-family: 'League Spartan'sans-serif;
+    font-weight: 700;
+}
+// Sub-headings' font
+@mixin fonts {
+    font-family: 'League Spartan'sans-serif;
+    font-weight: 600;
+}
+// paragraph's font
+@mixin Font {
+    font-family: 'League Spartan'sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}

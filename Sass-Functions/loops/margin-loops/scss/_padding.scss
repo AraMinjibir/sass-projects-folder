@@ -1,0 +1,10 @@
+@each $key, $val in $padding{
+    .padding-#{$key} {
+        padding:$val;
+    }
+}
+@each $key, $val in $margin{
+    .margin-#{$key} {
+        margin: $val;
+    }
+}

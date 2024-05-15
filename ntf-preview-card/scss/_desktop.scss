@@ -1,0 +1,63 @@
+.container {
+    background-color: $main-bg;
+    .row {
+        
+        .col {
+            
+            .card {
+                width: 21rem;
+                padding: 1.5rem !important;
+                background-color: $card-bg;
+                .card-body {
+
+                    img {
+                        width: 18rem;
+                    }
+                    .text-light {
+                        @include font;
+                    }
+                    .text-secondary {
+                        @include Font;
+                        color: $secondary-color !important;
+                    }
+
+                    .d-flex {
+                        
+                        .eth {
+                            img {
+                                width: 0.9rem;
+                            }
+                            .text-info {
+                                @include fonts;
+                                color: $primary-color !important;
+                            }
+                        }
+                        .clock {
+                            img {
+                                width: 1.5rem;
+                            }
+                            .text-secondary {
+                                @include fonts;
+                            }
+                        }
+                    }
+                    hr {
+                        color: $hr-color;
+                    }
+                    .d-flex {
+                        img {
+                            width: 3rem;
+                        }
+                        .text-secondary {
+                            @include fonts;
+                            margin-right: 2rem;
+                        }
+                        .text-light {
+                            @include fonts;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

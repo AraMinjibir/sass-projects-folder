@@ -1,0 +1,56 @@
+$primary-color: blue;
+$secondary-color:gray;
+$error-color: rgb(239, 158, 158);
+$info-color:cyan;
+$colors: (
+    "primary": $primary-color,
+    "secondary": $secondary-color,
+    "error": $error-color,
+    "info": $info-color,
+    "blue": #1919e6,
+    "red": #e61919,
+    "yellow": #e6e619,
+    "green": #19e635,
+    "orange":#ffa600,
+    "purple": #9900ff,
+    "gray":#808080,
+    "black": #0000,
+    "white": #ffff,
+);
+$first: 2rem 1rem;
+$second: 3rem 1rem;
+$third: 4.5rem 1rem;
+$forth: 5.5rem 1rem;
+$fifth: 6.5rem 1rem;
+$sixth: 7rem 1rem;
+
+$padding: (
+    "x1": $first,
+    "x2": $second,
+    "x3":$third,
+    "y1": $forth,
+    "y2":$fifth,
+    "y3":$sixth,
+);
+$rounded1: 2rem;
+$rounded2: 3rem;
+$rounded3: 4rem;
+$rounded4: 5rem;
+$rounded5: 6rem;
+$rounded6: 7rem;
+
+$borders:(
+    "r1":$rounded1, 
+    "r2":$rounded2,
+    "r3":$rounded3, 
+    "r4":$rounded4,
+    "r5":$rounded5,
+    "r6":$rounded6,    
+);
+$mx:12rem 10rem;
+$my:10rem;
+
+$margin:(
+    "top":$mx,
+    "bottom":$my,
+)

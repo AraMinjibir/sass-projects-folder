@@ -1,0 +1,24 @@
+$main-bg-color:hsl(30, 38%, 92%);
+$btn-bg-color: hsl(158, 36%, 37%);
+$primary-color:hsl(212, 21%, 14%);
+$secondary-color:hsl(228, 12%, 48%);
+
+.container {
+    background-color: $main-bg-color;
+    .row {
+        width: 60%;
+    }
+}
+@mixin font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 700;
+}
+@mixin fonts {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+@mixin Font {
+    font-family: 'Fraunces',sans-serif;
+    font-size: 700;
+}

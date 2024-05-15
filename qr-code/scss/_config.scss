@@ -1,0 +1,17 @@
+$main-bg-color:hsl(212, 45%, 89%);
+$parag-color:hsl(220, 15%, 55%);
+$heading-color:hsl(218, 44%, 22%);
+
+
+
+
+@mixin font {
+    font-family: 'Outfit',sans-serif;
+    font-weight: 700;
+}
+
+@mixin fonts {
+    font-family: 'Outfit',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}

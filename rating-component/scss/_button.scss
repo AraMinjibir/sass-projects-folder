@@ -1,0 +1,6 @@
+.btn-warning {
+    @include font;
+    color: hsl(0, 0%, 100%);
+    background-color: $buttom-bg-color !important;
+    border: none;
+}

@@ -1,0 +1,33 @@
+.container {
+    background-color: $main-bg-color;
+    .row {
+        width: 50% !important;
+
+        .card {
+            background-color: $card-bg-color;
+            .text-light {
+                @include font;
+            }
+
+            .text-secondary {
+                @include fonts;
+                color: $parag-color !important;
+            }
+
+                .star {
+                    width: 2rem;
+                    height: 2rem;
+                    background-color: $circl-gb-color;
+                }
+
+                .num {
+                    width: 2rem;
+                    height: 2rem;
+                    background-color: $circl-gb-color;
+                    color: $parag-color;
+                    @include fonts;
+                }
+            
+        }
+    }
+}

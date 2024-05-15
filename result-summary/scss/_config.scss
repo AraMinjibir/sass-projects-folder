@@ -1,0 +1,29 @@
+$reaction-color: hsl(0, 100%, 67%);
+$reaction-bg-color:hsl(0, 100%, 98%);
+$memory-color: hsl(39, 100%, 56%);
+$memory-bg-color:hsl(37, 57%, 95%);
+$verbal-color: hsl(166, 100%, 37%);
+$verval-color:hsl(165, 29%, 95%);
+$visual-color:  hsl(234, 85%, 45%);
+$visual-bg-color:hsla(234, 85%, 45%, 0.1);
+$card-bg-color:  hsl(252, 100%, 67%);
+$circle-gb-color:hsla(256, 72%, 46%, 1);
+$summary-color:hsl(224, 30%, 27%);
+$paragraph-color: hsl(241, 100%, 89%);
+$color:hsl(0, 0%, 100,);
+
+// Headings' font
+@mixin font {
+    font-family: 'Hanken Grotesk'sans-serif;
+    font-weight: 800;
+}
+@mixin fonts {
+    font-family: 'Hanken Grotesk'sans-serif;
+    font-weight: 600;
+}
+// paragraph
+@mixin Font {
+    font-family: 'Hanken Grotesk'sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}

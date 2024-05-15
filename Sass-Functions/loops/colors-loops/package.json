@@ -1,0 +1,16 @@
+{
+  "name": "loops",
+  "version": "0.0.1",
+  "description": "Practicing Looping",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "sass --watch scss/style.scss:assets/css/style.css"
+
+  },
+  "author": "AraMinjibir",
+  "license": "ISC",
+  "dependencies": {
+    "sass-loader": "^14.0.0"
+  }
+}

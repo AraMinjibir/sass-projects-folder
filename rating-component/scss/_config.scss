@@ -1,0 +1,16 @@
+$main-bg-color:hsl(216, 12%, 8%);
+$card-bg-color: hsl(213, 19%, 18%);
+$parag-color:hsla(216, 12%, 54%, 0.8);
+$circl-gb-color:hsla(217, 12%, 63%, 0.2);
+$buttom-bg-color:hsl(25, 97%, 53%);
+
+@mixin font {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+@mixin fonts {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}

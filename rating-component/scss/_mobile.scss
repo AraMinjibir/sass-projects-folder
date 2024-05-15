@@ -1,0 +1,11 @@
+@media(max-width: 750px) {
+    .row {
+        width: 60% !important;
+        border: 2px solid green !important;
+
+        .col {
+            width: 100% !important;
+            padding: 0 !important;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@media(max-width: 700px) {
+    .container-fluid {
+        max-width: 350px;
+        padding: 1rem !important;
+       
+        
+        .row {
+            width: 100% !important;
+            padding:0 !important;
+            margin: 0 !important;
+            margin-bottom: 3rem !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .first {
+                width: 100% !important;
+                height: 100%;
+                border-radius: 0 !important;
+                border-bottom-right-radius: 5px !important;
+                border-bottom-left-radius: 5px !important;
+                order: 2;
+                padding:1rem !important;
+                margin: 0 !important;
+                text-align: center;
+              
+                .text-light {
+                    padding-right: 3rem !important;
+                   
+                }
+                .text-secondary {
+                    margin-bottom: 1rem !important;
+                    padding:0 2rem !important;
+                    
+                }
+                .d-flex {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 1.5rem !important;
+
+                    .me-5 {
+                        padding: 0 !important;
+                        margin: 0 !important;
+                    }
+                    .ms-2 {
+                        margin-left: 0 !important;
+                        
+                    }
+                }
+            }
+            .second {
+                width: 100% !important;
+                border-radius: 0 !important;
+                border-top-right-radius: 5px !important;
+                border-top-left-radius: 5px !important;
+                order: 1;
+                background-image: url(../../assets/images/image-header-mobile.jpg) !important;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                .backg {
+                    border-radius: 0 !important;
+                    border-top-right-radius: 5px !important;
+                    border-top-left-radius: 5px !important;
+                }
+            }
+        }
+    }
+}

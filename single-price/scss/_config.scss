@@ -1,0 +1,25 @@
+$primary-color: hsl(179, 44%, 48%);
+$secondary-color: hsla(179, 62%, 43%, 0.7);
+$button-color:hsl(71, 73%, 54%);
+$tertiary-color: hsl(204, 43%, 93%);
+$main-bg-color: hsla(218, 22%, 67%, 0.1);
+$paragraph-color: hsl(218, 22%, 67%);
+$neutral-color: hsl(0, 0%, 100%);
+
+.container {
+    background-color: $main-bg-color;
+}
+.row {
+    width: 60%;
+    margin: auto;
+}
+
+@mixin font {
+    font-family: 'Karla'sans-serif;
+    font-weight: 700;
+}
+@mixin fonts {
+    font-family: 'Karla'sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}

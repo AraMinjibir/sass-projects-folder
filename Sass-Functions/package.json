@@ -1,0 +1,15 @@
+{
+  "name": "sass-functions",
+  "version": "1.0.0",
+  "description": "Fuctions",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "sass --watch scss/style.scss:assets/css/style.css"
+  },
+  "author": "AraMinjibir",
+  "license": "ISC",
+  "dependencies": {
+    "sass-loader": "^13.3.3"
+  }
+}

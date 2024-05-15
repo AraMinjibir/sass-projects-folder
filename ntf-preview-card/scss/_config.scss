@@ -1,0 +1,19 @@
+$main-bg:hsl(217, 54%, 11%);
+$card-bg:hsl(216, 50%, 16%);
+$hr-color:hsl(215, 34%, 60%);
+$primary-color:hsl(178, 100%, 50%);
+$secondary-color:hsl(215, 51%, 70%);
+
+@mixin font {
+    font-family: 'Outfit'sans-serif;
+    font-weight: 600;
+}
+@mixin fonts {
+    font-family: 'Outfit'sans-serif;
+    font-weight: 400;
+}
+@mixin Font {
+    font-family: 'Outfit'sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}

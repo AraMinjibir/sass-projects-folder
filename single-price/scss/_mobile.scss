@@ -1,0 +1,13 @@
+@media(max-width: 700px) {
+    .col {
+        padding: 1rem !important;
+    }
+    .first {
+        padding: 1rem !important;
+        border-radius: 0 !important;
+    }
+    .second {
+        padding: 1rem !important;
+        border-bottom-left-radius: 5px;
+    }
+}

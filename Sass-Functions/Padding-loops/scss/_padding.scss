@@ -1,0 +1,5 @@
+@each $key, $val in $padding{
+    .padding-#{$key}{
+        padding:$val;
+    }
+}

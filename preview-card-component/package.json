@@ -1,0 +1,16 @@
+{
+  "name": "preview-card-component",
+  "version": "1.0.0",
+  "description": "\u001b[D\u001b[D\u001b[DThis project consisted a preview of a card component",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "sass --watch scss/style.scss:assets/css/style.css"
+  },
+  "author": "AraMinijibir",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "sass-loader": "^13.3.3"
+  }
+}
